@@ -59,4 +59,4 @@ else
 fi
 
 echo "\n* Almost ! Starting web server now\n";
-exec {PHP_CMD}
+exec "apache2-foreground"
